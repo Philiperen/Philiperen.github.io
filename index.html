@@ -17,15 +17,24 @@
             document.getElementById("billede2").style.display = "block";
           }
       }
+      function ytfile() {
+          if(document.getElementById("ytvid").style.display == "block") {
+            document.getElementById("ytvid").style.display = "none";
+          } else {
+            document.getElementById("ytvid").style.display = "block";
+          }
+      }
     </script>
   </head>
   <body style="background-color:MediumAquaMarine;">
     <h1 style="background-color:Cyan;">Hello, World.</h1>
     <img id="billede" style="display: none" src="https://www.seriouseats.com/recipes/images/2017/06/20170526-no-bake-cheesecake-vicky-wasik-18-1500x1125.jpg">
-    <img id="billede2" style="display: none" src="https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/10/easy_chocolate_cake.jpg?itok=79848APr">
+    <img id="billede2" style="display: none" src="https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/10/easy_chocolate_cake.jpg?itok=79848APr">    
+    <a id="ytvid" style="display: none" href="https://www.youtube.com/watch?v=CnxrR-28qhU">Youtube</a>
     <p style="background-color:Magenta;">This is a little project of mine</p>  
     <button onclick="picture()">Cheesecake</button> 
     <button onclick="picture2()">Chocolate cake</button>
-    <p2 style="background-color:PowderBlue;">I haven't made any of these cakes by the way</p2>     
+    <p2 style="background-color:PowderBlue;">I haven't made any of these cakes by the way</p2>
+    <button onclick="ytfile()">Youtube</button>     
   </body>
 </html>
