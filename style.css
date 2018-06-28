@@ -1,5 +1,8 @@
 body {
     background-color: lightblue;
+}
+
+html {
     cursor: progress;
 }
 
@@ -28,5 +31,15 @@ p3 {
 p4 {
     color: coral;
     background-color: lightskyblue;
+    cursor: pointer;
+}
+
+p5 {
+    color: cornflowerblue;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+button {
     cursor: pointer;
 }
