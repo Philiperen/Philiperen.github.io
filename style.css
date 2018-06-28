@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    cursor: progress;
+}
+
+h1 {
+    color: navy;
+    background-color: peru;
+    margin-left: 200px;
+}
+
+p {
+    color: aqua;    
+}
+
+p2 {
+    color: limegreen;
+    background-color: powderblue;
+    cursor: pointer;
+}
+
+p3 {
+    color: royalblue;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+p4 {
+    color: coral;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
